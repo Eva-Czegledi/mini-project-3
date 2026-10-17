@@ -1,0 +1,276 @@
+/* Google Fonts */
+.mukta-regular {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    font-style: normal;
+}
+
+.martel-regular {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.martel-bold {
+    font-family: 'Martel', serif;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: normal;
+}
+
+/* Page and Container */
+body {
+    background-color: #f5f5f5;
+    color: #111111;
+}
+
+.container {
+    background-color: #ffffff;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 6px 0;
+    border-bottom: 2px solid #0A7A01;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0A7A01;
+}
+
+.navbar .nav-link {
+    color: #f5f5f5;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #f5f5f5;
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    border-color: #d1cece;
+}
+
+/* Article */
+p {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+h1 {
+    color: #0A7A01;
+    margin-top: 24px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    font-style: normal;
+}
+
+.byline {
+    font-size: 12px;
+    color: #6e6e73;
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.apple-link {
+    text-decoration: none;
+    color: #0A7A01;
+}
+
+.apple-link:hover,
+.apple-link:focus {
+    text-decoration: underline;
+}
+
+.person-name {
+    font-weight: bold;
+    color: #0A7A01;
+}
+
+.quotation {
+    font-style: italic;
+}
+
+/* You Might Also Like */
+.also-like {
+    margin-bottom: 18px;
+}
+
+.also-like h2 {
+    background-color: #0A7A01;
+    color: #f5f5f5;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 12px 10px 8px;
+    margin-top: 24px;
+}
+
+.also-like .card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.also-like .card-title {
+    font-family: 'Mukta', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.also-like .card-title a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.also-like .card-title a:hover,
+.also-like .card-title a:focus {
+    color: #0A7A01;
+    text-decoration: underline;
+}
+
+/* Aside */
+aside {
+    background-color: #f5f5f5;
+    padding: 24px 0;
+}
+
+aside h2 {
+    font-family: 'Martel', serif;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: normal;
+    color: #0A7A01;
+    text-align: center;
+}
+
+.list-group-item {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.list-group-item a {
+    color: #111111;
+}
+
+.list-group-item a:hover,
+.list-group-item a:focus {
+    color: #0A7A01;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    align-items: center;
+    border-top: 2px solid #0A7A01;
+    text-align: center;
+}
+
+footer .img-fluid {
+    width: 120px;
+}
+
+.footer-link {
+    color: #3a3a3c;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    text-decoration: underline;
+}
+
+.copyright {
+    color: #3a3a3c;
+    font-size: 12px;
+}
+
+.social-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.social-icon {
+    background-color: #000000;
+    border-radius: 6px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.social-icon img {
+    width: 28px;
+    height: 28px;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    outline: 2px solid #0A9E01;
+    outline-offset: 3px;
+}
+
+/* Hero */
+.hero {
+    background-color: #0A7A01;
+    background-image: url('../images/creator-studio-green-banner.png');
+    background-size: auto 280px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding: 40px 40px 160px;
+    margin-top: 24px;
+    border-radius: 16px;
+}
+
+@media (min-width: 992px) {
+    .hero {
+        background-size: cover;
+        min-height: 450px;
+        padding: 40px;
+    }
+}
+
+.hero h1 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.hero p {
+    color: #ffffff;
+}
+
+.hero-btn {
+    background-color: #ffffff;
+    color: #0A7A01;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #111111;
+    border-color: #111111;
+    color: #ffffff;
+}
